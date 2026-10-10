@@ -1,0 +1,28 @@
+# 本地配置（含 API Key，严禁提交）
+config.json
+app-settings.json
+*.local.json
+
+# 运行时数据
+sessions/
+screens/
+WebView2/
+WebView2-Browser/
+log.txt
+*.log
+
+# 构建产物（发布用 Release 资产）
+out/
+*.exe
+!installer/ZCodeClassic_Setup_1.0.0.exe
+
+# 官方 UI 构建产物（146MB，见 ui-patches 自行构建）
+web2/
+
+# 开发杂项
+dumps/
+tools/
+*.png
+!src/icons_sheet.png
+win7_watch.log
+*.csx
